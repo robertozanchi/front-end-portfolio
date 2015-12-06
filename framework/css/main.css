@@ -1,18 +1,35 @@
-* {
+/** {
     border: 1px solid red !important;
-}
+}*/
 
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
-@media only screen and (max-width: 900px) {
+/*@media only screen and (max-width: 900px) {
     p {
         background-color: blue
     }
+}
+*/
+h1 {
+    text-align: right;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+    text-align: right;
 }
 
 .grid {
@@ -23,7 +40,7 @@
 
 .row {
     width: 100%;
-    margin-bottom: 20px;
+/*    margin-bottom: 20px;*/
     display: flex;
 }
 
