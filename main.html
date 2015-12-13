@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
@@ -13,75 +14,66 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
+      <header class="row">
         <div class="col-md-6">
-          <img class="title-logo" src="http://placehold.it/100x100" class="img-responsive" alt="Responsive image">
+          <i class="fa fa-stop-circle title-logo"></i>
         </div>
         <div class="col-md-6 text-right text-uppercase">
           <h1 class="title-super text-thin">Roberto Zanchi</h1>
           <h3>Full Stack Web Developer</h3>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <article>
-            <p>
-              Full stack web developer in training at Udacity. I am passionate about solving societal and environmental problems, and have several years’ business consulting and non-profit experience in Europe and India. The potential for improving people’s lives through web and mobile technology is immense and this is my motivation for pursuing a new career in programming.
-            </p>
-          </article>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="text-muted">Featured Work</h2>
-        </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-md-6">
-          <img class="img-responsive" src="images/sample.jpg" alt="Responsive image" data-toggle="modal" data-target="#project1">
-          <h3>Appify</h3>
-          <p><a href="http://github.com">Link to project on GitHub</a></p>
-        </div>
-        <div class="col-md-6">
-          <img src="http://placehold.it/555x300" class="img-responsive" alt="Responsive image">
-          <h3>Appify</h3>
-          <p><a href="http://github.com">Link to project</a></p>
-        </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-md-6">
-          <img src="http://placehold.it/555x300" class="img-responsive" alt="Responsive image">
-          <h3>Appify</h3>
-          <p><a href="http://github.com">Link to project</a></p>
-        </div>
-        <div class="col-md-6">
-          <img src="http://placehold.it/555x300" class="img-responsive" alt="Responsive image">
-          <h3>Appify</h3>
-          <p><a href="http://github.com">Link to project</a></p>
-        </div>
-      </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-          </div>
-          <div class="modal-body">
-            <img class="img-responsive" src="images/sample.jpg">
-            This was my first project in this class. I learned a lot about HTML and CSS.
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </header>
+      <section>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
           </div>
         </div>
-      </div>
+        <div class="row">
+          <div class="col-md-12">
+            <article>
+              <p>
+                Full stack web developer in training at Udacity. I am passionate about solving societal and environmental problems, and have several years’ business consulting and non-profit experience in Europe and India. The potential for improving people’s lives through web and mobile technology is immense and this is my motivation for pursuing a new career in programming.
+              </p>
+            </article>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6">
+            <i class="fa fa-desktop project-icon"></i>
+            <h3>Movie Trailer Website</h3>
+            <p><a href="https://github.com/robertozanchi/movie-trailer-website">Link to project on GitHub</a></p>
+          </div>
+          <div class="col-md-6"><i class="fa fa-cogs project-icon"></i>
+            <h3>Conference Organization App API</h3>
+            <p><a href="https://github.com/robertozanchi/conference-organization-app">Link to project on GitHub</a></p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6">
+            <i class="fa fa-database project-icon"></i>
+            <h3>Item Catalog App</h3>
+            <p><a href="https://github.com/robertozanchi/catalog-appm">Link to project on GitHub</a></p>
+            <br>
+          </div>
+          <div class="col-md-6">
+            <i class="fa fa-server project-icon"></i>
+            <h3>Linux Server Setup</h3>
+            <p><a href="https://github.com/robertozanchi/linux-server-setup">Link to project on GitHub</a></p>
+            <br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>

@@ -3,23 +3,53 @@ body {
 	color: #656561;
 	font-weight: 300;
 }
-
 .text-muted {
 	color: #BCBBBB;
 }
-
 .text-thin {
 	font-weight: 100;
 }
-
+.text-center {
+	margin-bottom: 20px;
+}
 .title-super {
 	font-size: 60px;
 }
-
 .title-logo {
 	margin-top: 20px;
 }
-
 hr {
 	border-width: 5px;
+}
+.fa-stop-circle {
+	font-size: 100px;
+	color: #3366ff;
+}
+.project-icon {
+	font-size: 200px;
+	text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+.fa-desktop {
+	color: #009933;
+}
+.fa-cogs {
+	color: #ff6600;
+}
+.fa-database {
+	color: #ffcc00;
+}
+.fa-server {
+	color: #6600cc;
+}
+h2 {
+	margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 992px) {
+
+}
+@media screen and (min-width: 1200px) {
+	
 }
